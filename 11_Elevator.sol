@@ -45,6 +45,8 @@ contract Elevator {
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+import './elevator.sol';
+
 contract ElevatorAttack{
   Elevator public target;
   bool public toggle = true;
